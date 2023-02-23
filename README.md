@@ -6,9 +6,26 @@ Aquí podrán encontrar Jupyter Notebooks con las notas del curso de *Fundamento
 
 Espero esto sea de utilidad para quien lo consulte y pueda darles una perspectiva diferente a este curso, de una manera interactiva y visual.
 
-Versión a 22/02/23: **v1.0.0**
+Versión a 22/02/23: **v1.1.0**
 
-<ins>**v1.0.0 (22/02/23)**</ins> 
+<ins>**v1.1.0 (22/02/23)**</ins>
+
+- Modificación del módulo **toolbox**:
+    - Implementación de la generación de código por medio de sympy para el campo magnético
+    - Corrección de la gráfica del controno y las líneas del campo para el campo magnético:
+        - Uso de la componente cilíndrica para el contorno del campo
+        - Uso de las componentes cartesianas para las líneas del campo
+    - Personalización de las gráficas del campo magnético:
+        - Elección entre líneas, campo o ambos
+        - Mapa de colores para el campo
+        - Colores para las líneas del campo
+        - Selección del aspecto de la gráfica
+    - Corrección del efecto infinito en r = 0 para ambos campos
+        - La proporción del ruido experimental está ahora ligado al factor de decaimiento en r para dichos campos
+- Modificación del notebook **Tema01**:
+    - Implementación de los cambios y tipos de gráficas para el campo magnético
+
+*v1.0.0* (22/02/23)
 
 - Actualización del archivo **README.md**
     - Descripción de las versiones anteriores y versión actual
